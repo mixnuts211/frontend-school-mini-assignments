@@ -1,0 +1,42 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+	/*
+	font-weight: 500;
+	font-weight: 700;
+	*/
+}
+img{
+	width:100%;
+}
+ul, li{
+	list-style: none;
+}
+h1, h2, h3, ul, li{
+	margin: 0;
+}
+.wrapper{
+	width: 1080px;
+	margin: 100px auto;
+	background-color: yellowgreen;
+}
+
+.portfolio-header{
+	display: flex;
+	background-color: antiquewhite;
+}
+.portfolio-con{
+	margin-top: 100px;
+	background-color: yellow;
+}
+.portfolio-con-box{
+	display: flex;
+	margin-bottom: 24px;
+	background-color: antiquewhite;
+}
+.portfolio-con-title{
+	width:26%;
+	background-color: blueviolet;
+}
+.portfolio-con-list{
+	padding: 24px;
+}
