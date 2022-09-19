@@ -13,16 +13,19 @@ ul, li{
 }
 h1, h2, h3, ul, li{
 	margin: 0;
+	padding: 0;
 }
 body{
 	background-color: #673399;
 }
+/* layout */
 .wrapper{
 	width: 1080px;
 	margin: 100px auto;
 	/* background-color: yellowgreen; */
 }
 
+/* header */
 .portfolio-header{
 	display: flex;
 	/* background-color: antiquewhite; */
@@ -62,6 +65,8 @@ body{
 	margin-right: 30px;
 	background-color: #a887e1;
 }
+
+/* contents */
 .portfolio-con{
 	margin-top: 100px;
 	background-color: yellow;
@@ -72,8 +77,24 @@ body{
 	background-color: antiquewhite;
 }
 .portfolio-con-title{
+	display: flex;
+	position:relative;
+	justify-content: center;
+	align-items: center;
 	width:26%;
+	overflow: hidden;
 	background-color: blueviolet;
+}
+.portfolio-con-title-img,.portfolio-con-title-text{
+	position:absolute;
+}
+.portfolio-con-title-img{
+	opacity: 0.7;
+}
+.portfolio-con-title-text{
+	font-size: 24px;
+	color:#fff;
+	font-weight: 500;
 }
 .portfolio-con-list{
 	padding: 24px;
