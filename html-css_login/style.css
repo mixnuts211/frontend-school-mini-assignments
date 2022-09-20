@@ -1,0 +1,11 @@
+article{
+    width: 350px;
+    padding: 19px 16px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 12px;
+}
+.login{
+    padding: 10px 108px;
+    background-color: blueviolet;
+}
