@@ -8,7 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form id="mainForm">
+        <fieldset>
+            <legend>프론트엔드 토이프로젝트 스터디 모집 설문조사</legend>
+            <progress max="100" value="0" class="progress-bar"></progress>
+            <p class="notice">설문지를 작성해주세요.</p>
+            <label for="answer-input-1">1. 성함을 알려주세요.</label>
+            <input type="text" id="answer-input-1">
+            <label for="answer-input-2">2. 참여 가능한 요일을 알려주세요.</label>
+            <input type="text" id="answer-input-2">
+            <label for="answer-input-3">3. 참여 가능한 시간을 알려주세요.</label>
+            <input type="text" id="answer-input-3">
+            <label for="answer-input-4">4. 생각하고 계시는 소요 시간을 알려주세요.</label>
+            <input type="text" id="answer-input-4">
+            <label for="answer-input-5">5. 마지막으로 원하시는 건의사항이 있으신가요?</label>
+            <input type="text" id="answer-input-5">
+            <button type="submit">제출하기</button>
+            <button type="reset"></button>
+        </fieldset>
+    </form>
     <script src="app.js"></script>
 </body>
 </html>
