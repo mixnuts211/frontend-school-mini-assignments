@@ -138,6 +138,11 @@ table {
     box-sizing: border-box;
 }
 
+/*추가한 속성*/
+a{
+    text-decoration: none;
+}
+
 .txt-hide {
     position: absolute;
     clip: rect(0 0 0 0);
